@@ -87,13 +87,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon.ico" },
+      { url: "/whatsapp-favicon-2026-06-06-154913.png", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
     other: [
       { rel: "android-chrome-192x192", url: "/android-chrome-192x192.png" },
+      { rel: "android-chrome-512x512", url: "/android-chrome-512x512.png" },
     ],
   },
   manifest: "/site.webmanifest",
@@ -227,6 +227,9 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="geo.region" content="IN-HR" />
         <meta name="geo.placename" content="Gurgaon, Haryana, India" />
         <meta name="geo.position" content="28.4595;77.0266" />
